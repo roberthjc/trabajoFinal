@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="img/icono/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icono/favicon-16x16.png">
+    <!--descripcion y el viewport-->
+    <meta name="description" content=" Curso de HTML-CSS-JS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--CSS  proyecto ruta-->
+    <link rel="stylesheet" href="css/index.css">
+    <title>Repaso</title>
+</head>
+<body >
+    <header></header>
+    <nav></nav>
+    <main class="container-mb bg-info vh-100 d-flex justify-content-center align-items-center" >
+        <section class="shadow-sm p-3 mb-5 bg-body rounded ">
+            <h2 class="text-center">Login</h2>
+            <form >
+                <section class="mb-3">
+                  <label for="txtEmail" class="form-label">Direccion de Correo</label>
+                  <input type="email" class="form-control" id="txtEmail" aria-describedby="emailHelp">
+                  <p id="emailvalidacion" class="text-danger"></p>
+                </section> 
+                <section class="mb-3">
+                  <label for="txtPwd" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="txtPwd">
+                </section>
+                <section class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="chkAceptar">
+                  <label class="form-check-label" for="chkAceptar">Aceptar Reglas de Contrato</label>
+                </section>
+                <input type="button" class="btn btn-secondary" value="Enviar"  id="btnEnviar">
+                
+              </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
+<script src="js/index.js"></script>
